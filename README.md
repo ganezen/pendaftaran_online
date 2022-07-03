@@ -40,11 +40,11 @@ Cara Kerja dari aplikasi ini memiliki 2 buah akses, yaitu untuk pendaftar dan un
 
    - Home
     
-![image](https://user-images.githubusercontent.com/62431769/177046240-0d9d5de8-35fa-46c0-926e-481042f62935.png)
+![image](https://user-images.githubusercontent.com/62431769/177056503-2902451d-cf1d-468d-a30a-b8cc5066a926.png)
 
    - Data Peserta
     
-![image](https://user-images.githubusercontent.com/62431769/177046249-bd695337-ba19-4898-a73b-c28bb0f0236a.png)
+![image](https://user-images.githubusercontent.com/62431769/177056487-f8cd717a-1f90-446b-968c-b2cda32803d9.png)
 
 
 
