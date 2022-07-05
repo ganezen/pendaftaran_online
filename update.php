@@ -135,7 +135,7 @@
 						<td>Alamat Tinggal</td>
 						<td>:</td>
 						<td>
-							<textarea class="input-control" name="alamat" value="<?php echo $u['alamat']?>"></textarea>
+							<textarea class="input-control" name="alamat"><?php echo $u['alamat']?></textarea>
 						</td>
 					</tr>
 					<tr>
