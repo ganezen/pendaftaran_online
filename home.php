@@ -30,7 +30,7 @@
 	<section class="content">
 		<h2>Home</h2>
 		<div class="box">
-			<h3>Anda sudah login sebagai <?php echo $_SESSION['nama'] ?></h3>
+			<h3>Anda sedang login sebagai <?php echo $_SESSION['nama'] ?></h3>
 		</div>
 	</section>	
 	</body>
