@@ -15,7 +15,8 @@
 				<h2>PENDAFTARAN ANDA BERHASIL</h2>
 				<div class="box">
 					<h4>KODE PENDAFTARAN ANDA ADALAH <?php echo $_GET['id'] ?></h4>
-					<a href="cetak-bukti.php?id=<?php echo $_GET['id'] ?>" class="btn-cetak">CETAK BUKTI PENDAFTARAN</a>
+					<a href="cetak-bukti.php?id=<?php echo $_GET['id'] ?>" class="btn-cetak">CETAK BUKTI PENDAFTARAN</a>&emsp;
+					<a href="index.php" class="btn-cetak">Home</a>
 				</div>
 		</section>
 	</body>

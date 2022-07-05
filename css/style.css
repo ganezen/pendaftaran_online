@@ -6,10 +6,12 @@
 body{
 	background-color: #f8f8f8;
 }
+
 .box-formulir{
 	width: 50%;
 	margin:100px auto;
 }
+
 .box{
 	background-color: #fff;
 	border: 1px solid #ddd;
@@ -141,6 +143,33 @@ a {
 .table tr td:nth-child(1){
 	text-align: center;
 }
-.table tr td:nth-child(7){
+.table tr td:nth-child(8){
 	text-align: center;
 }
+
+.main-home{
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: #BCE0EE;
+}
+
+.button-main{
+	padding: 14px;
+	width: 180px;
+	border: 2px solid black;
+	border-radius: 50px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #12AEE8;
+}
+
+.button-main:hover{
+	cursor: pointer;
+	background-color: #1087B3;
+}
+
+
+

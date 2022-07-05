@@ -23,7 +23,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Pendaftaran Online</title>
+	<title>Pendaftaran Online | Login</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap" rel="stylesheet">

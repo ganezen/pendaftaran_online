@@ -34,7 +34,7 @@
 		<div class="box">
 				<table class="table" border="1">
 					<thead>
-						<a href="index.php"><input type="submit" value="Tambah Data" class="btn-daftar"></a>
+						<a href="form_pendaftaran.php"><input type="submit" value="Tambah Data" class="btn-daftar"></a>
 							<tr>
 								<th>No</th>
 								<th>ID Pendaftaran</th>
@@ -42,6 +42,7 @@
 								<th>Jenis Kelamin</th>
 								<th>Jurusan</th>
 								<th>Agama</th>
+								<th>Alamat</th>
 								<th>Action</th>
 							</tr>
 					</thead>
@@ -59,11 +60,12 @@
 							<td><?php echo $row['jk'] ?></td>
 							<td><?php echo $row['jurusan'] ?></td>
 							<td><?php echo $row['agama'] ?></td>
+							<td><?php echo $row['alamat'] ?></td>
 							<td>
 								<a href="update.php?id=<?php echo $row['id_pendaftaran'] ?>"
-								i class="fa fa-edit" style="font-size:24px; color: #CB6610""></i>	||	</a>
+								i class="fa fa-edit" style="font-size:24px; color: #CB6610""></i>	&emsp;	</a>
 								<a href="detail-peserta.php?id=<?php echo $row['id_pendaftaran'] ?>"
-								i class="fa fa-info-circle" style="font-size:24px; color: #CB6610""></i>	||	</a>
+								i class="fa fa-info-circle" style="font-size:24px; color: #CB6610""></i>	&emsp;	</a>
 								<a href = "delete-peserta.php?id=<?php echo $row['id_pendaftaran'] ?>" 
 								onclick="return confirm('Anda ingin Menghapus Data ?')"
 								i class="fa fa-trash-o" style="font-size:25px; color: #B60C0C"></a>
